@@ -20,3 +20,16 @@
     font-weight:400;
     display:block;
 }
+/*------------- [On scroll Fixed Header]-------------------*/
+.navigation{
+  padding: 10px 16px;
+  color: #f1f1f1;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .body_content {
+  padding-top: 102px;
+}
